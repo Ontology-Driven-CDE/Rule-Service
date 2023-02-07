@@ -15,6 +15,7 @@
     sh:targetClass fso:Pipe ;
     sh:message "Pipe";
     sh:message "The pressure drop of a pipe shall not exceed 100 Pa/m";
+    sh:deactivated true ;
     sh:sparql  [
         a sh:sh:SPARQLConstraint  ;
         sh:prefixes (fpo: fso: inst:) ;
