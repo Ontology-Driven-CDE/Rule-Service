@@ -1,6 +1,5 @@
 from urllib.request import Request
 from fastapi import APIRouter, Request
-import json
 from fastapi.responses import JSONResponse
 router = APIRouter()
 import json
